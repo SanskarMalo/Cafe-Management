@@ -13,7 +13,7 @@ class Customer(Home):
     def custFun(this):
         print("\n\n======================================================================================================================")
         nm=input("Enter Customer Name - ")
-        cid=input("Enter Customer ID - ")
+        cid=input("Enter Customer Phone Number - ")
         this.c.append(cid)
         this.c.append(nm)
         dy=input("Do you want to continue(y/n)? - ")
@@ -352,7 +352,7 @@ class Snacks(Juice):
             print("\n\n********************************************************************************************************************")
             print("\n================================================== BILL ===============================================================")
             print("Customer Details-")
-            print("ID - "+this.c[0])
+            print("Phone Number - "+this.c[0])
             print("Name - "+this.c[1])
             print('\n\n=====================================================================================================================')
             print('Item Name \t\t\t\t\t Quantity \t\t\t Total')
